@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-public class IdleManager : MonoBehaviour {
+public class IdleManager : MonoBehaviour
+{
+    public int doubled;
 
     [HideInInspector]
     public int length;
@@ -135,7 +137,7 @@ public class IdleManager : MonoBehaviour {
 
     public void CollectDoubleMoney()
     {
-        wallet += totalGain * 2;
+        wallet += totalGain * doubled;
         PlayerPrefs.SetInt("Wallet", wallet);
         ScreensManager.instance.ChangeScreen(Screens.MAIN);
     }
