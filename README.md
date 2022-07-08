@@ -1,7 +1,6 @@
 # TheFisherman_Repo
 
- The Fisherman, clone of The Fish Master. I learned to make from Udemy. 
- Don't forget to leave a star if you liked it.
+ The Fisherman, clone of The Fish Master. I learned to make from Udemy.
  
  APK: https://github.com/nsylc/TheFisherman_Repo/releases
 
